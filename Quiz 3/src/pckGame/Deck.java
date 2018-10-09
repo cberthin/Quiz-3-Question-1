@@ -7,14 +7,17 @@ public class Deck {
 	int[] number_Cards_Rank=new int[13];
 	ArrayList<Card> card_Deck= new ArrayList<>();
 	
-	public static void main(String[] args) {
+/*	For testing purposes, will output card remaining after chosing
+ 	public static void main(String[] args) {
 		Deck deck=new Deck();
 		Card Drawn=deck.Draw();
 		System.out.println(Drawn.getSuit());
 		System.out.println(Drawn.getRank());
-		System.out.println(deck.getRemaining(Drawn.getSuit()));
-		System.out.println(deck.getRemaining(Drawn.getRank()));
+		System.out.println("There are " + deck.getRemaining(Drawn.getSuit()) + " " + Drawn.getSuit() + " remaining");
+		System.out.println("There are " + deck.getRemaining(Drawn.getRank()) + " " + Drawn.getRank() +"'s" + " remaining");
 	}
+
+*/
 	
 	public Deck(){
 		for(int i=0;i<4;i++) {
