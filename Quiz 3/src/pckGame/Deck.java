@@ -7,7 +7,7 @@ public class Deck {
 	int[] number_Cards_Rank=new int[13];
 	ArrayList<Card> card_Deck= new ArrayList<>();
 	
-/*	For testing purposes, will output card remaining after chosing
+/*	For testing purposes, will output card remaining after chosing cards
  	public static void main(String[] args) {
 		Deck deck=new Deck();
 		Card Drawn=deck.Draw();
